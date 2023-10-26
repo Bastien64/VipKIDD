@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+ body {
+    background-color: rgb(255, 255, 255)!important;
+ }
+   #nav-section {
+        margin: 0;
+        padding: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+
+     .imagepremierpage {
+        width: 100vw;
+        height: 100vh;
+        height: auto;
+     }
+
+     img {
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+     }
+    .textnavbar {
+        color: white;
+        font-size: 20px;
+        margin-left: 20px;
+        font-family: 'Roboto', sans-serif!important;   
+     }
+
+     .div2 {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-family: 'Roboto', sans-serif !important;
+        width: 75%;
+    }
+    
+    h3 {
+        font-weight: 700!important;
+    }
+    .logovipkiddiv2 {
+        width: 50%;
+    }
+    .div3 {
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .textdiv3 {
+        width: 40%;
+        padding: 5%;
+        font-family: 'Roboto', sans-serif !important;
+    }
+
+    .textdiv3 {
+        transform: translateX(100%);
+        transition: transform 3s;
+    }
+    
+    .textdiv3.show {
+        transform: translateX(0);
+    }
+
+    .div4 {
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 5%;
+    }
+
+    .classphotodiv3 {
+        width: 40%;
+        height: auto;
+    }
+
+    .classphotodiv4 {
+        width: 30%;
+        height: 40%;
+    }
+
+    .classphotodiv4:hover {
+        width: 33%;
+        height: 40%;
+        transition: 1s;
+    }
+    .classphotodiv4b {
+        width: 40%;
+        height: auto;
+    }
+
+
+    .classphotodiv4b:hover {
+        width: 42%;
+        height: auto;
+        transition: 1s;
+    }
+
+    .separation {
+        width: 50%;
+        height: 3px;
+        background-color: black;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+
+    .photobandeau {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        opacity: 0.7;
+        justify-content: space-around;
+    }
+
+    .imagebandeau {
+        width: 20vw;
+        height: 60vh;
+        border-radius: 10px;
+    }
+
+       
+    /* footer */
+    .footer {
+        margin-top: 5%;
+        padding: 2% 2% 2% 2%;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: rgba(9, 153, 158, 0.801);
+        justify-content: space-around;
+    }
+    
+    .reseaux {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        margin: 5%;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    
+    .infolegale {
+        width: 55%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .infolegale p {
+        font-size: small;
+        margin-left: 2%;
+    }
+
+    .trait {
+        width: 2px;
+        height: 150px;
+        background-color: white;
+    }
+
+    .contact {
+        width: 15%; text-align: center;
+    }
+
+    .contact2 {
+        width: 15%;
+    }
+    a {
+        text-decoration: none !important;
+        color: white!important ;
+    }

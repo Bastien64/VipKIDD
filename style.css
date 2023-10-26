@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
-
+ body {
+    background-color: rgb(255, 255, 255)!important;
+ }
    #nav-section {
         margin: 0;
         padding: 0;
@@ -7,13 +9,16 @@
         z-index: 1;
     }
 
+
      .imagepremierpage {
         width: 100vw;
         height: 100vh;
         height: auto;
      }
-    
 
+     img {
+        border-radius: 10px;
+     }
     .textnavbar {
         color: white;
         font-size: 20px;
@@ -22,13 +27,16 @@
      }
 
      .div2 {
-        margin: 5% auto;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        text-align: center;
         font-family: 'Roboto', sans-serif !important;
+        width: 75%;
     }
+    
     h3 {
         font-weight: 700!important;
     }
@@ -49,6 +57,15 @@
         font-family: 'Roboto', sans-serif !important;
     }
 
+    .textdiv3 {
+        transform: translateX(100%);
+        transition: transform 3s;
+    }
+    
+    .textdiv3.show {
+        transform: translateX(0);
+    }
+
     .div4 {
         padding: 2%;
         display: flex;
@@ -59,6 +76,7 @@
 
     .classphotodiv3 {
         width: 50%;
+        height: auto;
     }
 
     .classphotodiv4 {
@@ -85,12 +103,26 @@
 
     .separation {
         width: 50%;
-        height: 2px;
+        height: 3px;
         background-color: black;
         margin: auto;
         margin-top: 5%;
         margin-bottom: 5%;
 
+    }
+
+    .photobandeau {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        opacity: 0.7;
+        justify-content: space-around;
+    }
+
+    .imagebandeau {
+        width: 20vw;
+        height: 60vh;
+        border-radius: 10px;
     }
 
        
@@ -101,7 +133,7 @@
         display: flex;
         flex-direction: row;
         color: white;
-        background-color: rgba(195, 180, 175, 0.801);
+        background-color: rgba(9, 153, 158, 0.801);
         justify-content: space-around;
     }
     
