@@ -1,0 +1,19 @@
+#nav-section {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textnavbar {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif!important;   
+ }

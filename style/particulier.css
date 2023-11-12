@@ -1,0 +1,77 @@
+
+h1 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+ }
+ p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+ }
+
+ ul {
+    color: #000;
+    font-family: 'Roboto', sans-serif;    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+ }
+/* div1 */
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+/* INTERLUDE1 */
+.interlude {
+    width: 100vw;
+    height: 395px; 
+    background: #3AADB1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imageinterlude {
+    width: 100vw;
+    height: 380px; 
+    margin: auto;
+}
+
+
+/* DIV2 */
+.div2 {
+    margin-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textdiv2 {
+    width: 80%;
+    padding: 5%;
+
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.classphotodiv2 {
+    width: 656px;
+    height: 709px; 
+    border-radius: 10px;
+}
