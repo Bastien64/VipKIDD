@@ -1,4 +1,10 @@
  /* footer */
+
+ @media only screen and (min-width: 767px) {
+
+    .photofooter {
+        width: 10%; height: auto;box-shadow: none !important;
+    }
  .footer {
     margin-top: 5%;
     padding: 2% 2% 2% 2%;
@@ -49,4 +55,65 @@ a {
 
 .pfooter {
     font-size: 15px!important;
+}}
+@media only screen and (max-width: 766px) {
+
+    .photofooter {
+        width: 20%; height: auto;box-shadow: none !important;
+        margin: auto;
+    }
+    .footer {
+        margin-top: 5%;
+        padding: 2% 2% 2% 2%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color:rgb(9, 153, 158);
+        justify-content: space-around;
+    }
+    
+    .reseaux {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .infolegale {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .infolegale p {
+        font-size: small;
+        margin-left: 2%;
+    }
+    
+    .trait {
+        width: 0px;
+    }
+    
+    .contact {
+        width: 100%; text-align: center;
+    }
+    
+    .contact2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        text-align: start;
+    }
+    a {
+        text-decoration: none !important;
+        color: white!important ;
+    }
+    
+    .pfooter {
+        font-size: 15px!important;
+    }
 }

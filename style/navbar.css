@@ -1,3 +1,4 @@
+@media only screen and (min-width: 767px) {
 #nav-section {
     margin: 0;
     padding: 0;
@@ -10,10 +11,46 @@ nav {
     flex-direction: column;
 
 }
-
+.logo {
+    max-width: 150px; max-height: auto;box-shadow: none !important;
+}
 .textnavbar {
     color: white;
     font-size: 20px;
     margin-left: 20px;
     font-family: 'Roboto', sans-serif!important;   
- }
+ }}
+ @media only screen and (max-width: 766px) {
+
+    .navbar {
+        margin-top: 20px!important;
+    }
+    #nav-section {
+
+        margin: 0;
+        padding: 0;
+        top: 0;
+        z-index: 1;
+    }
+    .navbar-collapse {
+        background-color: white ;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356)   ;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .logo {
+        width: 0px;
+        opacity: 0;
+    }
+    
+    .textnavbar {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left: 20px;
+        font-family: 'Roboto', sans-serif!important;   
+     }}
