@@ -21,6 +21,9 @@
     align-items: center;
 }
 
+.logoinstagram {
+    width: 60px;
+}
 
 .infolegale {
     width: 55%;
@@ -115,5 +118,10 @@ a {
     
     .pfooter {
         font-size: 15px!important;
+    }
+
+    .logoinstagram {
+        width: 50px;
+        margin-bottom: 20px;
     }
 }
