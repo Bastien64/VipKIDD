@@ -75,26 +75,25 @@
 
 
 
-    <form>
+    <form   action="https://formspree.io/f/xgejbdnz"
+    method="POST">
         <H1>CONTACT</H1>
         <div class="mb-3">
           <label for="NomPrenom" class="form-label">Prénom et Nom</label>
-          <input type="email" class="form-control" id="NomPrenom" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text"></div>
+          <input type="Text" name="name" class="form-control" id="NomPrenom" aria-describedby="Text">
+          <div id="Text" class="form-text"></div>
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
-          <input type="password" class="form-control" id="email">
+          <input type="email" name="_replyto" class="form-control" id="email">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="complaint">Message</label>
+            <textarea rows="3"  name="complaint" id="complaint" placeholder="" class="form-control" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Message du site Internet ">
+
           </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Vérification</label>
-        </div>
-        <a href="mailto:elodie.mayer@animationvipkids.fr"><button type="button" class="btn btn-dark">Envoyer</button></a>
+        <button type="submit" class="btn btn-dark">Envoyer</button></a>
       </form>
 
    
