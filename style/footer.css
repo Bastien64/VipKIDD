@@ -3,7 +3,7 @@
  @media only screen and (min-width: 767px) {
 
     .photofooter {
-        width: 10%; height: auto;box-shadow: none !important;
+        width: 200px; height: auto;box-shadow: none !important;
     }
  .footer {
     margin-top: 5%;
