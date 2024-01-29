@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 @media only screen and (min-width: 767px) {
+
  body {
     background-color: rgb(255, 255, 255)!important;
  }
@@ -8,7 +9,7 @@
  h1 {
     color: #000;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-weight: 700!important;
  }
 
  p {
@@ -52,7 +53,8 @@ line-height: normal;
     }
     
     h3 {
-        font-weight: 700!important;
+
+        font-weight: 900!important;
     }
     .logovipkiddiv2 {
         width: 30%;
@@ -147,6 +149,7 @@ line-height: normal;
     /*FORM*/
     form {
         width: 75%;
+        padding-top: 25px;
         margin: auto;
     }
        
@@ -159,8 +162,9 @@ line-height: normal;
      h1 {
         color: #000;
         font-family: 'Roboto', sans-serif;
-        font-weight: 900;
+        font-weight: 700!important;
      }
+    
     
      p {
         color: #000;
