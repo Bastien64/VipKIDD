@@ -24,8 +24,7 @@ line-height: normal;
 
 .imagepremierpage {
     width: 100vw;
-
-    height: auto;
+    height: 100vh;
  }
 .div1 {
     display: flex;

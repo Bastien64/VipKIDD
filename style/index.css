@@ -2,6 +2,26 @@
 
 @media only screen and (min-width: 767px) {
 
+
+    /* ANIMATION*/
+    .logovipkiddiv2 {
+        opacity: 0; 
+        transition: opacity 2s ease-in-out; /* Animation transition */
+      }
+  
+      .show-logo {
+        opacity: 1; /* Set to 1 to make it visible */
+      }
+
+      .imagebandeau {
+        opacity: 0; /* Initial opacity, set to 0 to make it invisible */
+        transition: opacity 1s ease-in-out; /* Animation transition */
+      }
+  
+      .show-image {
+        opacity: 1; /* Set to 1 to make it visible */
+      }
+
  body {
     background-color: rgb(255, 255, 255)!important;
  }
@@ -31,8 +51,7 @@ line-height: normal;
 
      .imagepremierpage {
         width: 100vw;
- 
-        height: auto;
+        height: 100vh;
      }
 
      .image {

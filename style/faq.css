@@ -5,8 +5,7 @@
 
     .imagepremierpage {
         width: 100vw;
- 
-        height: auto;
+        height: 100vh;
      }
      h1 {
         font-family: 'Roboto', sans-serif !important;

@@ -58,6 +58,11 @@ a {
 
 .pfooter {
     font-size: 15px!important;
+}
+
+ul {
+    text-align: start;
+    color: white;
 }}
 @media only screen and (max-width: 766px) {
 
@@ -110,6 +115,7 @@ a {
 
     ul {
         text-align: start;
+        color: white;
     }
     a {
         text-decoration: none !important;

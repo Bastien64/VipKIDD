@@ -21,8 +21,7 @@
 
     .imagepremierpage {
         width: 100vw;
- 
-        height: auto;
+        height: 100vh;
      }
     .contactdiv {
         display: flex;
@@ -83,7 +82,7 @@
 
     }
 
-    li {
+    .none {
         list-style: none
     }
 
