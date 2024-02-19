@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    padding: 2%;
 }
 
 .pagesection2 {
@@ -19,7 +19,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+
+    padding: 2%;
 
 }
 
@@ -29,7 +30,7 @@
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 3%;
+    
 }
 
 .section1 {
@@ -38,7 +39,8 @@
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 3%;
+    margin-top: 5%;
+
 }
 .textsection1 {
     display: flex;
@@ -46,7 +48,7 @@
     align-items: start;
     justify-content: center;
     max-width: 25%;
-    margin-left: 5%;
+
 }
 
 .titrejeu {
