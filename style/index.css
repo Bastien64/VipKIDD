@@ -242,7 +242,7 @@ line-height: normal;
        
 }
 @media only screen and (max-width: 767px) {
-    video {margin: auto; display: flex; align-items: center; width: 90vw; border-radius: 10px;
+    iframe {margin: auto; display: flex; align-items: center; width: 90vw; border-radius: 10px;
 
     }
     /* COOKIES */
