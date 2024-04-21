@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 @media only screen and (min-width: 767px) {
+    video {margin: auto; display: flex; align-items: center; width: 50vw;
 
+    }
     /* COOKIES */
+
+
     .cookiesContent {
         width: 25%;
         padding: 2%;
@@ -68,6 +72,7 @@
 
     /* ANIMATION*/
     .logovipkiddiv2 {
+        margin-top: 2%;
         opacity: 0; 
         transition: opacity 2s ease-in-out; /* Animation transition */
       }
@@ -237,7 +242,9 @@ line-height: normal;
        
 }
 @media only screen and (max-width: 767px) {
+    video {margin: auto; display: flex; align-items: center; width: 90vw; border-radius: 10px;
 
+    }
     /* COOKIES */
     .cookiesContent {
         width: 90%;
@@ -355,12 +362,12 @@ line-height: normal;
             font-weight: 700!important;
         }
         .logovipkiddiv2 {
-            width: 50%;
+            margin-top: 2%;
+            width: 100%;
         }
         .div3 {
             margin-top: 5%;
-            padding-right: 15%;
-            padding-left: 15%;
+
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -370,7 +377,6 @@ line-height: normal;
         .textdiv3 {
             text-align: center;
             width: 90%;
-            padding: 5%;
             font-family: 'Roboto', sans-serif !important;
         }
     
@@ -427,7 +433,7 @@ line-height: normal;
         }
 
         .lastdiv {
-            margin: auto; width: 100%; text-align: center; margin-bottom: 5%; margin-top: -15%!important;
+            margin: auto;             width: 90%;; text-align: center; margin-bottom: 5%; margin-top: -15%!important;
         }
 
         .lastphoto {
