@@ -22,6 +22,14 @@ line-height: normal;
  }
 /* div1 */
 
+.div1a {
+    background-image: url('/photo/kermit-2687975_1920.jpg');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100vw;
+    height: 100vh;
+}
+
 .imagepremierpage {
     width: 100vw;
     height: 100vh;
@@ -75,6 +83,9 @@ line-height: normal;
     font-family: 'Roboto', sans-serif !important;
 }
 
+.dark {
+    color: black;
+}
 .classphotodiv2 {
     width: 656px;
     height: 709px; 
@@ -82,6 +93,13 @@ line-height: normal;
 }}
 
 @media only screen and (max-width: 766px) {
+    .div1a {
+        background-image: url('/photo/mobilepage2.jpg');
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        width: 100vw;
+        height: 50vh;
+    }
     h1 {
         color: #000;
         font-family: 'Roboto', sans-serif;
@@ -162,6 +180,10 @@ line-height: normal;
     .classphotodiv2 {
         width: 90vw; 
         border-radius: 10px;
+    }
+
+    .dark {
+        color: black;
     }
 
     ul {

@@ -116,16 +116,13 @@ line-height: normal;
     line-height: normal; 
  }
 /*DIV1*/
-
-     .imagepremierpage {
-        width: 100vw;
-        height: 100vh;
-     }
-
-     .image {
-        border-radius: 10px;
-        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
-     }
+.div1 {
+    background-image: url('/photo/play-stone-1744790_1920.jpg');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100vw;
+    height: 100vh;
+}
 
 
      .div2 {
@@ -184,17 +181,20 @@ line-height: normal;
     .classphotodiv3 {
         width: 458px;
         height: 661px; 
+        border-radius: 10px;
     }
 
     .classphotodiv4 {
         width: 458px;
         height: 661px; 
+        border-radius: 10px;
     }
 
     .classphotodiv4b {
         width: 458px;
         height: 661px; 
         flex-shrink: 0; 
+        border-radius: 10px;
     }
 
 
@@ -231,7 +231,8 @@ line-height: normal;
     }
 
     .lastphoto {
-        width: 25%;
+        width: 458px;
+        border-radius: 10px;
     }
     /*FORM*/
     form {
@@ -242,7 +243,7 @@ line-height: normal;
        
 }
 @media only screen and (max-width: 767px) {
-    iframe {margin: auto; display: flex; align-items: center; width: 90vw; border-radius: 10px;
+    video {margin: auto; display: flex; align-items: center; width: 100vw;
 
     }
     /* COOKIES */
@@ -334,12 +335,13 @@ line-height: normal;
         line-height: normal; 
      }
     /*DIV1*/
-    
-         .imagepremierpage {
+        .div1 {
+            background-image: url('/photo/mobilepage1.jpg');
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
             width: 100vw;
-
-            height: auto;
-         }
+            height: 50vh;
+        }
     
          .image {
             border-radius: 10px;
@@ -399,16 +401,19 @@ line-height: normal;
         }
     
         .classphotodiv3 {
-            width: 90vw; 
+            width: 75vw; 
+            border-radius: 10px;
         }
     
         .classphotodiv4 {
-            width: 90vw; 
+            width: 75vw; 
+            border-radius: 10px;
         }
     
         .classphotodiv4b {
             margin-top: 2%;
-            width: 90vw; 
+            width: 75vw; 
+            border-radius: 10px;
         }
     
     
@@ -439,6 +444,7 @@ line-height: normal;
         .lastphoto {
             width: 90vw;
             margin: auto;
+            border-radius: 10px;
         }
         /*FORM*/
         form {

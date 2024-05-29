@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
 @media only screen and (min-width: 767px) {
-
+    .div1a {
+        background-image: url('/photo/yoschi-1557252_1920.jpg');
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        width: 100vw;
+        height: 100vh;
+    }
     
 
     .imagepremierpage {
@@ -36,8 +42,16 @@
 
 
  }
-}@media only screen and (max-width: 766px) {
-        
+}
+@media only screen and (max-width: 766px) {
+    .div1a {
+        background-image: url('/photo/mobilepage5.jpg');
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        width: 100vw;
+        height: 50vh;
+    }
+     
     .imagepremierpage {
         width: 100vw;
 
