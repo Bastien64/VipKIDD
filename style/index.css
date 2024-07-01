@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 @media only screen and (min-width: 767px) {
+    .image {
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    }
     video {margin: auto; display: flex; align-items: center; width: 50vw;
 
     }

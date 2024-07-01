@@ -24,13 +24,14 @@ nav {
 
     .navbar {
         margin-top: 20px!important;
+        z-index: 99;
     }
     #nav-section {
 
         margin: 0;
         padding: 0;
         top: 0;
-        z-index: 1;
+        z-index: 99;
     }
     .navbar-collapse {
         background-color: white ;

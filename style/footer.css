@@ -67,7 +67,7 @@ ul {
 @media only screen and (max-width: 766px) {
 
     .photofooter {
-        width: 20%; height: auto;box-shadow: none !important;
+        width: 40%; height: auto;box-shadow: none !important;
         margin: auto;
     }
     .footer {

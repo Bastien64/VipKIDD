@@ -1,4 +1,7 @@
 @media only screen and (min-width: 767px) {
+    .image {
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    }
 h1 {
     color: #000;
     font-family: 'Roboto', sans-serif;
@@ -42,32 +45,38 @@ line-height: normal;
     align-content: center;
     width: 65%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 2%;    margin-bottom: 2%;
 }
 
 
 /* INTERLUDE1 */
 .interlude {
-    width: 100vw;
-    height: 395px; 
-    background: #3AADB1; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .imageinterlude {
-    width: 100vw;
-    height: 380px; 
+    width: 75vw;
     margin: auto;
+    border-radius: 10px;
 }
 
+.trait2 {
+    width: 45vw;
+    height: 3px;
 
+    background-color: #000000;
+
+    margin: auto;
+
+}
 /* DIV2 */
 .div2 {
-    margin-top: 5%;
+    margin-top: 2%;
     padding-right: 10%;
     padding-left: 10%;
     display: flex;
@@ -93,6 +102,9 @@ line-height: normal;
 }}
 
 @media only screen and (max-width: 766px) {
+    .image {
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    }
     .div1a {
         background-image: url('/photo/mobilepage2.jpg');
         background-repeat: no-repeat; /* Do not repeat the image */
