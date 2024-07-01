@@ -182,12 +182,14 @@ line-height: normal;
         width: 458px;
         height: 661px; 
         border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
     }
 
     .classphotodiv4 {
         width: 458px;
         height: 661px; 
         border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
     }
 
     .classphotodiv4b {
@@ -195,6 +197,7 @@ line-height: normal;
         height: 661px; 
         flex-shrink: 0; 
         border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
     }
 
 
@@ -403,17 +406,19 @@ line-height: normal;
         .classphotodiv3 {
             width: 75vw; 
             border-radius: 10px;
+            box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
         }
     
         .classphotodiv4 {
             width: 75vw; 
             border-radius: 10px;
+            box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
         }
     
         .classphotodiv4b {
-            margin-top: 2%;
-            width: 75vw; 
-            border-radius: 10px;
+            margin-top: 0%;
+            width: 0vw; 
+            border-radius: 0px;
         }
     
     
